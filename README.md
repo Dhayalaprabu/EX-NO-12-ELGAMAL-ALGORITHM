@@ -52,7 +52,7 @@ int main() {
     printf("Enter a generator (g): ");
     scanf("%lld", &g);
 
-    printf("Enter Amirtha's private key: ");
+    printf("Enter dhayal's private key: ");
     scanf("%lld", &privateKeyA);
 
     publicKeyA = modExp(g, privateKeyA, p);
@@ -76,7 +76,8 @@ int main() {
 
 ## Output:
 
-<img width="1750" height="909" alt="image" src="https://github.com/user-attachments/assets/f5e37dc7-398e-4b9c-82c4-f1c3c69383ca" />
+
+
 
 
 

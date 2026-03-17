@@ -56,7 +56,7 @@ int main() {
     scanf("%lld", &privateKeyA);
 
     publicKeyA = modExp(g, privateKeyA, p);
-    printf("Amirtha's public key: %lld\n", publicKeyA);
+    printf("dhayal's public key: %lld\n", publicKeyA);
 
     printf("Enter the message to encrypt (as a number): ");
     scanf("%lld", &message);
@@ -77,6 +77,7 @@ int main() {
 ## Output:
 
 
+<img width="1749" height="893" alt="image" src="https://github.com/user-attachments/assets/6d27d023-707c-4b20-9819-6eec92ff8fac" />
 
 
 
